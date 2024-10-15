@@ -24,6 +24,7 @@ Duration: 30 days.
 | XGBoost | 4.66      | 8.38       |
 | LSTM    | 2.62      | 3.73       |
 
+
 **ARIMA**: Performed poorly, likely due to its inability to handle the seasonality present in the data.
 
 **SARIMAX**: Improved performance by accounting for seasonality, but still not optimal.
@@ -33,6 +34,8 @@ Duration: 30 days.
 **XGBoost**: While LSTM performed the best, XGBoost stands out as a very strong contender, offering excellent predictive performance along with the added benefits of interpretability and potentially faster training times. Its performance suggests it's capturing the underlying patterns in your energy consumption data very effectively.
 
 **LSTM**: Outperformed all other models, showing the best accuracy in both MAE and RMSE.
+
+
 
 **Conclusion**
 The LSTM and XGBoost clearly outperformed other models, the choice between them would depend on specific requirements such as interpretability needs, available computational resources, and the importance of squeezing out every last bit of predictive performance.
