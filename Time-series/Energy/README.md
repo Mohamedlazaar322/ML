@@ -18,12 +18,13 @@ LSTM
 
 **Results**
 
-Model	MAE (kWh)	RMSE (kWh)
-ARIMA	27.18	29.63
-SARIMAX	11.73	13.79
-Prophet	29.47	41.23
-XGBoost	4.66	8.38
-LSTM  2.62  3.73
+| Model   | MAE (kWh) | RMSE (kWh) |
+|---------|-----------|------------|
+| ARIMA   | 27.18     | 29.63      |
+| SARIMAX | 11.73     | 13.79      |
+| Prophet | 29.47     | 41.23      |
+| XGBoost | 4.66      | 8.38       |
+| LSTM    | 2.62      | 3.73       |
 
 ARIMA: Performed poorly, likely due to its inability to handle the seasonality present in the data.
 
