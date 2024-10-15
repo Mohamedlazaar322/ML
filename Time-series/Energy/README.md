@@ -37,5 +37,5 @@ Duration: 30 days.
 
 
 
-**Conclusion**
+# **Conclusion**
 The LSTM and XGBoost clearly outperformed other models, the choice between them would depend on specific requirements such as interpretability needs, available computational resources, and the importance of squeezing out every last bit of predictive performance.
