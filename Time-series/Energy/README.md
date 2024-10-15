@@ -1,14 +1,14 @@
-Project: Solar Energy Forecasting
-Overview
+**Project: Solar Energy Forecasting**
+# Overview
 This project focuses on forecasting solar energy production using data from PVOutput in Sicily. The goal was to build multiple forecasting models and evaluate their performance, using a 30-minute aggregated dataset over a 30-day period. The initial data were at 5-minute intervals, but were resampled to 30-minute intervals due to computational constraints.
 
-Data
+# Data
 
 Source: PVOutput (Sicily)
 Time Interval: Originally 5-minute, resampled to 30-minute intervals.
 Duration: 30 days.
 
-Models Used
+# Models Used
 
 ARIMA (AutoRegressive Integrated Moving Average)
 SARIMAX (Seasonal ARIMA with eXogenous variables)
@@ -16,7 +16,7 @@ Prophet
 XGBoost
 LSTM
 
-Results
+# Results
 
 Model	MAE (kWh)	RMSE (kWh)
 ARIMA	27.18	29.63
@@ -35,5 +35,5 @@ XGBoost: While LSTM performed the best, XGBoost stands out as a very strong cont
 
 LSTM: Outperformed all other models, showing the best accuracy in both MAE and RMSE.
 
-Conclusion
+# Conclusion
 The LSTM and XGBoost clearly outperformed other models, the choice between them would depend on specific requirements such as interpretability needs, available computational resources, and the importance of squeezing out every last bit of predictive performance.
