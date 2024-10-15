@@ -10,11 +10,11 @@ Duration: 30 days.
 
 **Models Used**
 
-ARIMA (AutoRegressive Integrated Moving Average)
-SARIMAX (Seasonal ARIMA with eXogenous variables)
-Prophet
-XGBoost
-LSTM
+1. ARIMA (AutoRegressive Integrated Moving Average)
+2. SARIMAX (Seasonal ARIMA with eXogenous variables)
+3. Prophet
+4. XGBoost
+5. LSTM
 
 **Results**
 
