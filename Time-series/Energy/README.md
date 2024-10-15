@@ -24,7 +24,7 @@ Duration: 30 days.
 | XGBoost | 4.66      | 8.38       |
 | LSTM    | 2.62      | 3.73       |
 
-ARIMA: Performed poorly, likely due to its inability to handle the seasonality present in the data.
+**ARIMA**: Performed poorly, likely due to its inability to handle the seasonality present in the data.
 
 SARIMAX: Improved performance by accounting for seasonality, but still not optimal.
 
