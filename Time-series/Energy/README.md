@@ -1,5 +1,5 @@
 # Project: Solar Energy Forecasting
-**Overview**
+*Overview*
 This project focuses on forecasting solar energy production using data from PVOutput in Sicily. The goal was to build multiple forecasting models and evaluate their performance, using a 30-minute aggregated dataset over a 30-day period. The initial data were at 5-minute intervals, but were resampled to 30-minute intervals due to computational constraints.
 
 # Data
